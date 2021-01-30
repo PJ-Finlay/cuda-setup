@@ -13,3 +13,9 @@ sudo apt-key add /var/cuda-repo-ubuntu2004-11-2-local/7fa2af80.pub
 sudo apt-get update
 sudo apt-get -y install cuda
 ```
+Optional:
+```
+git config --global user.name "P.J. Finlay"
+git config --global user.email "pjappdevelopment@gmail.com
+git config --global core.editor "vim"
+```

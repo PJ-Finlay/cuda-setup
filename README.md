@@ -1,4 +1,4 @@
-CUDA Setup for Ubuntu 20.04
+# CUDA Setup for Ubuntu 20.04
 ```
 curl https://raw.githubusercontent.com/PJ-Finlay/cuda-setup/main/setup.sh | sh
 ```
@@ -13,7 +13,12 @@ sudo apt-key add /var/cuda-repo-ubuntu2004-11-2-local/7fa2af80.pub
 sudo apt-get update
 sudo apt-get -y install cuda
 ```
-Optional:
+## Optional
+### Reboot
+```
+sudo reboot
+```
+### Configure Git
 ```
 git config --global user.name "P.J. Finlay"
 git config --global user.email "pjappdevelopment@gmail.com

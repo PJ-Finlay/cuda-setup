@@ -1,5 +1,5 @@
 # CUDA Setup for Ubuntu 20.04
-* Warning uninstalls Xorg, and is designed for use on a server*
+** Warning uninstalls Xorg, and is designed for use on a server**
 ```
 # Install CUDA
 sudo apt-get update

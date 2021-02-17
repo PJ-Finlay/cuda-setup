@@ -18,12 +18,12 @@ sudo apt-get remove -y xserver-xorg-core
 ```
 Run in one command:
 ```
-curl https://raw.githubusercontent.com/PJ-Finlay/cuda-setup/main/cuda-setup.sh | sh
+curl https://raw.githubusercontent.com/PJ-Finlay/cuda-setup/main/setup_cuda.sh | sh
 ```
 ## Optional
 ### Reboot
 ```
-curl https://raw.githubusercontent.com/PJ-Finlay/cuda-setup/main/cuda-setup.sh | sh && sudo reboot
+curl https://raw.githubusercontent.com/PJ-Finlay/cuda-setup/main/setup_cuda.sh | sh && sudo reboot
 ```
 ### Configure Git
 ```
